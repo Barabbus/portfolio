@@ -53,7 +53,7 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 333px;
+      width: 250px;
       height: 250px;
       background: url(../img/andrew_large.jpg);
       border-radius: 50%;
@@ -262,7 +262,7 @@ main {
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
       background: url("../img/andrew_small.jpg");
-      width: 200px;
+      width: 150px;
       height: 150px; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';

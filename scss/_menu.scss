@@ -16,9 +16,9 @@
         @include easeOut;
     }
 
-    // Rotate into X with Menu Lines
+    // Rotate hamburger lines into X
     &.close {
-        
+
         .btn-line {
             // Line 1 - Rotate
             &:nth-child(1) {

@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background-color: #fff;
     transition: all 0.5s ease-out; }
   .menu-btn.close .btn-line:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px); }
@@ -70,7 +70,6 @@
     padding: 1rem 0;
     font-weight: 300;
     color: #fff;
-    text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
       color: #18e981; }
@@ -201,9 +200,9 @@ main {
     .boxes div:hover {
       padding: 1.2rem 2.2rem;
       background: #18e981;
-      color: #000; }
+      color: #fff; }
       .boxes div:hover span {
-        color: #000; }
+        color: #fff; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -212,7 +211,7 @@ main {
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #18e981;
-    color: #000; }
+    color: #18e981; }
 
 .btn-dark {
   background: black;

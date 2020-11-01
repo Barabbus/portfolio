@@ -12,13 +12,12 @@
         width: 28px;
         height: 3px;
         margin: 0 0 5px 0;
-        background: set-text-color($primary-color);
+        background-color: #fff;        
         @include easeOut;
     }
 
-    // Rotate into X with Menu Lines
+    // Rotate hamburger lines into X
     &.close {
-        transform: rotate(180deg);
 
         .btn-line {
             // Line 1 - Rotate
@@ -41,8 +40,7 @@
 .menu {
     position: fixed;
     top: 0;
-    width: 100%;
-    opacity: 0.95;
+    width: 100%;    
     visibility: hidden;
 
     &.show {
@@ -116,8 +114,7 @@
         text-transform: uppercase;
         padding: 1rem 0;
         font-weight: 300;
-        color: set-text-color($primary-color);
-        text-decoration: none;
+        color: #fff;                
         @include easeOut;
 
         &:hover {

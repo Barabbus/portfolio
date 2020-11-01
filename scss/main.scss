@@ -178,23 +178,22 @@ main {
     padding: 0.5rem 1rem;
     border: 0;
     margin-bottom: 0.3rem;
+    color: #fff;
 
     &:hover {
         background: $secondary-color;
-        color: $secondary-color;
+        color: #000;
     }
 }
 
 .btn-dark {
     @extend .btn;
-    background: darken($primary-color, 50);
-    color: #fff;
+    background: darken($primary-color, 50);    
 }
 
 .btn-light {
     @extend .btn;
-    background: lighten($primary-color, 50);
-    color: #333;
+    background: lighten($primary-color, 20);    
 }
 
 #main-footer {

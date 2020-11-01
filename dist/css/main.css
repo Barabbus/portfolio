@@ -214,18 +214,17 @@ main {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
-  margin-bottom: 0.3rem; }
+  margin-bottom: 0.3rem;
+  color: #fff; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #18e981;
-    color: #18e981; }
+    color: #000; }
 
 .btn-dark {
-  background: black;
-  color: #fff; }
+  background: black; }
 
 .btn-light {
-  background: #c4c4c4;
-  color: #333; }
+  background: #777777; }
 
 #main-footer {
   text-align: center;

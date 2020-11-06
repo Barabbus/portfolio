@@ -210,21 +210,18 @@ main {
       .boxes div:hover span {
         color: #fff; }
 
-.btn, .btn-dark, .btn-light {
+.btn, .btn-dark {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
   color: #fff; }
-  .btn:hover, .btn-dark:hover, .btn-light:hover {
+  .btn:hover, .btn-dark:hover {
     background: #18e981;
     color: #000; }
 
 .btn-dark {
   background: black; }
-
-.btn-light {
-  background: #777777; }
 
 #main-footer {
   text-align: center;
